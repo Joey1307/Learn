@@ -1,0 +1,19 @@
+/* code listing for blog/css/blog.css */
+form#editor{
+    width: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+form#editor label, form#editor input[type='text']{
+    display: block;
+}
+
+form#editor #editor-buttons{
+    border: none;
+    text-align: right;
+}
+
+form#editor textarea {
+    height: 10em;
+}
